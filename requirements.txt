@@ -1,0 +1,20 @@
+# ── 核心推理与界面 ────────────────────────────────────────────────
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+onnxruntime>=1.16.0
+PyQt6>=6.5.0
+numpy>=1.24.0
+
+# ── 训练相关（仅训练机需要，树莓派端可不安装）────────────────────
+torch>=2.0.0
+onnx>=1.14.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+
+# ── 标准库（通常已内置，无需额外安装）────────────────────────────
+# sqlite3
+# json
+# logging
+# threading
+# collections
+# pathlib
